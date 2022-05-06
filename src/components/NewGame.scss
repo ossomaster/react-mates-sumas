@@ -1,0 +1,41 @@
+.newGame {
+  background: #ffa186;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__inner {
+    width: 100%;
+    max-width: 70%;
+    background: #fff;
+    padding: 60px 30px;
+
+    border-radius: 6px;
+    box-shadow: 0 0 40px #ff6633;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 0 0 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  &__form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  &__form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+
+  &__form-control {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,32 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #ff6633;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  cursor: pointer;
+
+  &:active {
+    background: #ffa186;
+  }
+
+  &--action {
+    background: #fff;
+    color: #ff6633;
+    font-size: 1.5rem;
+    &:active {
+      color: #fff;
+    }
+  }
+
+  &--full {
+    width: 100%;
+    padding: 10px 0;
+  }
+}

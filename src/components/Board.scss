@@ -1,0 +1,22 @@
+.board {
+  background: #fec2ad;
+  padding: 15px 30px;
+  display: grid;
+  grid-template-rows: 40px 2fr;
+  row-gap: 15px;
+
+  &__actions {
+    justify-self: right;
+    > * {
+      margin-left: 10px;
+    }
+  }
+
+  &__numbers {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+}

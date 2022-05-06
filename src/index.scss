@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.tablero {
+  display: grid;
+  grid-template-rows: 1fr 50px 130px;
+  background: #ffa186;
+  height: 100vh;
+}
+
+
+
+.acciones {
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.accion {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 40px;
+  background: #ff6633;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.numeros {
+  background: #fec2ad;
+  display: grid;
+  padding: 10px 5px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.numero {
+  background: #ff6633;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+}
+
+.accion:active,
+.numero:active {
+  background: #ffa186;
+}
